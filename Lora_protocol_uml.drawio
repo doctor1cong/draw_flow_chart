@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-15T09:28:18.732Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="jynQeNmwwijsXxDyCavm" version="24.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-15T09:35:06.370Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="k0Zp83NwmA4-jD1kY9aP" version="24.4.0" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
-    <mxGraphModel dx="1425" dy="790" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" background="#000000" math="0" shadow="0">
+    <mxGraphModel dx="826" dy="458" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" background="#000000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -206,7 +206,7 @@
             <mxPoint x="443" y="707.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rvzNmCv426vPERhAY20t-18" value="Lora 通信流程：一级路由角色" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;strokeColor=#0066CC;" vertex="1" parent="1">
+        <mxCell id="rvzNmCv426vPERhAY20t-18" value="Lora 通信流程：一级/二级路由角色" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;strokeColor=#0066CC;" vertex="1" parent="1">
           <mxGeometry x="793" y="40" width="811" height="750" as="geometry" />
         </mxCell>
         <mxCell id="rvzNmCv426vPERhAY20t-19" value="&lt;font color=&quot;#000000&quot;&gt;服务器&lt;/font&gt;" style="swimlane;html=1;startSize=20;strokeColor=#0066CC;fontColor=#FFFFFF;" vertex="1" parent="rvzNmCv426vPERhAY20t-18">
