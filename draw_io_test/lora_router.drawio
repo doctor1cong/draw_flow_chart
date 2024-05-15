@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-15T03:17:34.849Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="HZneGXIcTXiN7qErmeN1" version="24.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-15T03:55:09.093Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="8eqBBJdETetpjh4VzGS5" version="24.4.0" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
-    <mxGraphModel dx="3231" dy="1347" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" background="#000000" math="0" shadow="0">
+    <mxGraphModel dx="2522" dy="954" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" background="#000000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -15,8 +15,8 @@
             <mxPoint x="-353" y="774" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1753" value="&lt;h1&gt;服务器&lt;/h1&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#383800;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=1;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
-          <mxGeometry x="-428" y="441.5" width="150" height="60" as="geometry" />
+        <mxCell id="1753" value="&lt;h1&gt;服务器&lt;/h1&gt;&lt;h1&gt;0x0001&lt;/h1&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#383800;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=1;arcSize=7;perimeterSpacing=2;horizontal=1;" parent="1" vertex="1">
+          <mxGeometry x="-423" y="424.25" width="150" height="94.5" as="geometry" />
         </mxCell>
         <mxCell id="1756" value="&lt;h3&gt;&lt;font color=&quot;#ffffff&quot;&gt;客户端1&lt;/font&gt;&lt;/h3&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=3;fontFamily=Helvetica;fontSize=14;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;fillColor=#004C99;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="-423" y="126" width="150" height="60" as="geometry" />
@@ -110,6 +110,21 @@
             <mxPoint x="448" y="474" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="fNavXlTei2wndbR-Wmgy-1835" value="" style="group;strokeWidth=3;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-270" y="351" width="240" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="fNavXlTei2wndbR-Wmgy-1826" value="&lt;h3 style=&quot;font-size: 14px;&quot;&gt;目的地址&lt;/h3&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6666FF;strokeColor=#6c8ebf;fontSize=14;" vertex="1" parent="fNavXlTei2wndbR-Wmgy-1835">
+          <mxGeometry width="120" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="fNavXlTei2wndbR-Wmgy-1827" value="&lt;h3&gt;原地址&lt;/h3&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#00FF00;strokeColor=#b85450;" vertex="1" parent="fNavXlTei2wndbR-Wmgy-1835">
+          <mxGeometry x="120" width="120" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="fNavXlTei2wndbR-Wmgy-1833" value="&lt;h3 style=&quot;font-size: 14px;&quot;&gt;0x0002&lt;/h3&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6666FF;strokeColor=#6c8ebf;fontSize=14;" vertex="1" parent="fNavXlTei2wndbR-Wmgy-1835">
+          <mxGeometry y="29" width="120" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="fNavXlTei2wndbR-Wmgy-1834" value="&lt;h3&gt;0x0001&lt;/h3&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#00FF00;strokeColor=#b85450;" vertex="1" parent="fNavXlTei2wndbR-Wmgy-1835">
+          <mxGeometry x="120" y="29" width="120" height="29" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
