@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-15T07:18:51.294Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="NCLPHJI0uuS79d7oX0H5" version="24.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-15T07:35:38.648Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="czo04nfijkJ8OsT9SXcC" version="24.4.0" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
-    <mxGraphModel dx="4031" dy="1747" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" background="#000000" math="0" shadow="0">
+    <mxGraphModel dx="4031" dy="2147" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" background="#000000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -320,7 +320,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="fNavXlTei2wndbR-Wmgy-1934" value="当前设备节点表" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#666666;fontSize=16;" vertex="1" parent="fNavXlTei2wndbR-Wmgy-1995">
-          <mxGeometry x="75" y="273" width="153" height="60" as="geometry" />
+          <mxGeometry x="87.5" y="273" width="153" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fNavXlTei2wndbR-Wmgy-2058" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;类型：服务器&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFF99;" vertex="1" parent="fNavXlTei2wndbR-Wmgy-1995">
+          <mxGeometry x="146" y="5.5" width="153" height="95" as="geometry" />
         </mxCell>
         <mxCell id="fNavXlTei2wndbR-Wmgy-1996" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="-521" y="90" width="328" height="340" as="geometry" />
@@ -420,61 +423,53 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="fNavXlTei2wndbR-Wmgy-2019" value="当前设备节点表" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#666666;fontSize=16;" vertex="1" parent="fNavXlTei2wndbR-Wmgy-1996">
-          <mxGeometry x="75" y="273" width="153" height="60" as="geometry" />
+          <mxGeometry x="99" y="272" width="153" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fNavXlTei2wndbR-Wmgy-2059" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;类型：一级路由&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFF99;" vertex="1" parent="fNavXlTei2wndbR-Wmgy-1996">
+          <mxGeometry x="132" y="9" width="153" height="95" as="geometry" />
         </mxCell>
         <mxCell id="fNavXlTei2wndbR-Wmgy-2022" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="391" y="209" width="328" height="202.5" as="geometry" />
+          <mxGeometry x="413" y="238" width="313" height="180" as="geometry" />
         </mxCell>
         <mxCell id="fNavXlTei2wndbR-Wmgy-2023" value="" style="whiteSpace=wrap;html=1;fillColor=#666666;" vertex="1" parent="fNavXlTei2wndbR-Wmgy-2022">
-          <mxGeometry width="328" height="202.5" as="geometry" />
-        </mxCell>
-        <mxCell id="fNavXlTei2wndbR-Wmgy-2024" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=16;fillColor=#FF33FF;fontColor=#FFFFFF;strokeWidth=3;" vertex="1" parent="fNavXlTei2wndbR-Wmgy-2022">
-          <mxGeometry x="13" y="82" width="304" height="57.35" as="geometry" />
-        </mxCell>
-        <mxCell id="fNavXlTei2wndbR-Wmgy-2025" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="fNavXlTei2wndbR-Wmgy-2024">
-          <mxGeometry width="304" height="57" as="geometry" />
-        </mxCell>
-        <mxCell id="fNavXlTei2wndbR-Wmgy-2026" value="路由：0x0007" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;fontColor=#FFFFFF;" vertex="1" parent="fNavXlTei2wndbR-Wmgy-2025">
-          <mxGeometry width="76" height="57" as="geometry">
-            <mxRectangle width="76" height="57" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="fNavXlTei2wndbR-Wmgy-2027" value="0X0008" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=default;overflow=hidden;fillColor=#004C99;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;fontColor=#FFFFFF;strokeWidth=4;" vertex="1" parent="fNavXlTei2wndbR-Wmgy-2025">
-          <mxGeometry x="76" width="76" height="57" as="geometry">
-            <mxRectangle width="76" height="57" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="fNavXlTei2wndbR-Wmgy-2028" value="0X0009" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=default;overflow=hidden;fillColor=#004C99;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;fontColor=#FFFFFF;strokeWidth=4;" vertex="1" parent="fNavXlTei2wndbR-Wmgy-2025">
-          <mxGeometry x="152" width="76" height="57" as="geometry">
-            <mxRectangle width="76" height="57" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="fNavXlTei2wndbR-Wmgy-2029" value="……" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=default;overflow=hidden;fillColor=#004C99;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;fontColor=#FFFFFF;strokeWidth=4;" vertex="1" parent="fNavXlTei2wndbR-Wmgy-2025">
-          <mxGeometry x="228" width="76" height="57" as="geometry">
-            <mxRectangle width="76" height="57" as="alternateBounds" />
-          </mxGeometry>
+          <mxGeometry width="313" height="180" as="geometry" />
         </mxCell>
         <mxCell id="fNavXlTei2wndbR-Wmgy-2040" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=16;fontColor=#FFFFFF;fillColor=#004C99;" vertex="1" parent="fNavXlTei2wndbR-Wmgy-2022">
-          <mxGeometry x="13" y="9" width="106.75" height="59.83" as="geometry" />
+          <mxGeometry x="16.004878048780498" y="12.002622950819672" width="117.42073170731707" height="117.80852459016393" as="geometry" />
         </mxCell>
         <mxCell id="fNavXlTei2wndbR-Wmgy-2041" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="fNavXlTei2wndbR-Wmgy-2040">
-          <mxGeometry width="106.75" height="30" as="geometry" />
+          <mxGeometry width="117.42073170731707" height="56" as="geometry" />
         </mxCell>
         <mxCell id="fNavXlTei2wndbR-Wmgy-2042" value="0X0002" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;fontColor=#FFFFFF;" vertex="1" parent="fNavXlTei2wndbR-Wmgy-2041">
-          <mxGeometry width="107" height="30" as="geometry">
-            <mxRectangle width="107" height="30" as="alternateBounds" />
+          <mxGeometry width="117" height="56" as="geometry">
+            <mxRectangle width="117" height="56" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="fNavXlTei2wndbR-Wmgy-2043" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="fNavXlTei2wndbR-Wmgy-2040">
-          <mxGeometry y="30" width="106.75" height="30" as="geometry" />
+          <mxGeometry y="56" width="117.42073170731707" height="62" as="geometry" />
         </mxCell>
         <mxCell id="fNavXlTei2wndbR-Wmgy-2044" value="0X0003" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;fontColor=#FFFFFF;" vertex="1" parent="fNavXlTei2wndbR-Wmgy-2043">
-          <mxGeometry width="107" height="30" as="geometry">
-            <mxRectangle width="107" height="30" as="alternateBounds" />
+          <mxGeometry width="117" height="62" as="geometry">
+            <mxRectangle width="117" height="62" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="fNavXlTei2wndbR-Wmgy-2045" value="当前设备节点表" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#666666;fontSize=16;" vertex="1" parent="fNavXlTei2wndbR-Wmgy-2022">
-          <mxGeometry x="75" y="162.59558823529412" width="153" height="35.73529411764706" as="geometry" />
+          <mxGeometry x="99" y="136" width="151" height="37.76" as="geometry" />
+        </mxCell>
+        <mxCell id="fNavXlTei2wndbR-Wmgy-2060" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;类型：二级路由&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFF99;" vertex="1" parent="fNavXlTei2wndbR-Wmgy-2022">
+          <mxGeometry x="149.99999999999994" y="23.409999999999968" width="153" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="fNavXlTei2wndbR-Wmgy-2061" value="&lt;h1 style=&quot;&quot;&gt;服务器&lt;/h1&gt;&lt;h1 style=&quot;&quot;&gt;记录当前连接的客户端和一级路由，以及一级路由所记录的客户端节点。&lt;/h1&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#383800;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=1;arcSize=7;perimeterSpacing=2;horizontal=1;" vertex="1" parent="1">
+          <mxGeometry x="-1203" y="-485" width="464" height="259" as="geometry" />
+        </mxCell>
+        <mxCell id="fNavXlTei2wndbR-Wmgy-2062" value="&lt;h3 style=&quot;font-size: 28px;&quot;&gt;&lt;font style=&quot;font-size: 28px;&quot; color=&quot;#ffffff&quot;&gt;客户端&lt;/font&gt;&lt;/h3&gt;&lt;div style=&quot;font-size: 28px;&quot;&gt;&lt;font style=&quot;font-size: 28px;&quot;&gt;&lt;font style=&quot;font-size: 28px;&quot; color=&quot;#ffffff&quot;&gt;响应上级（服务器、一级路由、二级路由&lt;/font&gt;&lt;span style=&quot;color: rgb(255, 255, 255); background-color: initial;&quot;&gt;）&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=3;fontFamily=Helvetica;fontSize=14;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;fillColor=#004C99;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-687" y="-479" width="439" height="247" as="geometry" />
+        </mxCell>
+        <mxCell id="fNavXlTei2wndbR-Wmgy-2063" value="&lt;font style=&quot;font-size: 28px;&quot;&gt;一级路由&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 28px;&quot;&gt;记录当前连接的客户端节点和二级路由，以及二级路由所记录的客户端节点。&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#FF33FF;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;align=center;fontStyle=1;spacing=5;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
+          <mxGeometry x="-183" y="-460" width="542.5" height="214" as="geometry" />
+        </mxCell>
+        <mxCell id="fNavXlTei2wndbR-Wmgy-2064" value="&lt;font style=&quot;font-size: 28px;&quot;&gt;二级路由&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 28px;&quot;&gt;只记录当前连接的客户端节点。&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#FF6666;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;align=center;fontStyle=1;spacing=5;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
+          <mxGeometry x="439" y="-446.75" width="466" height="182.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
