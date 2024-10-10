@@ -7,7 +7,7 @@
         <mxCell id="bbQW1Ya1Ovsxz0HwXBIN-97" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FFFFFF;strokeWidth=2;strokeColor=#FFFFFF;" edge="1" parent="1" source="2" target="bbQW1Ya1Ovsxz0HwXBIN-96">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2" value="&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;1,串口等外设初始化&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;2，蓝牙ble初始化&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;3、电极电压输出控制任务初始化&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;4，ADC读取初始化&lt;/font&gt;&lt;/p&gt;" style="verticalAlign=middle;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=1;fontStyle=1;strokeWidth=3;fillColor=#0000FF;" parent="1" vertex="1">
+        <mxCell id="2" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;1,串口等外设初始化&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;2，蓝牙ble初始化&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;3、电极电压输出控制任务初始化&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;4，ADC读取初始化&lt;/font&gt;&lt;/p&gt;" style="verticalAlign=middle;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=1;fontStyle=1;strokeWidth=3;fillColor=#0000FF;" parent="1" vertex="1">
           <mxGeometry x="-5" y="228.5" width="200" height="83.5" as="geometry" />
         </mxCell>
         <mxCell id="4" value="app start" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#0066CC;" parent="1" vertex="1">
@@ -25,37 +25,29 @@
         <mxCell id="bbQW1Ya1Ovsxz0HwXBIN-96" value="&lt;div&gt;&lt;span style=&quot;color: rgb(255, 255, 255); background-color: initial;&quot;&gt;开启ble广播1分钟&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#0000FF;rounded=1;fontStyle=1;strokeWidth=3;" vertex="1" parent="1">
           <mxGeometry x="35" y="360" width="120" height="52.25" as="geometry" />
         </mxCell>
-        <mxCell id="bbQW1Ya1Ovsxz0HwXBIN-101" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#FFFFFF;" edge="1" parent="1" source="bbQW1Ya1Ovsxz0HwXBIN-98" target="bbQW1Ya1Ovsxz0HwXBIN-100">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="bbQW1Ya1Ovsxz0HwXBIN-121" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=1;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="bbQW1Ya1Ovsxz0HwXBIN-98" target="bbQW1Ya1Ovsxz0HwXBIN-120">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-4" y="502" />
+              <mxPoint x="-4" y="502" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="bbQW1Ya1Ovsxz0HwXBIN-102" value="无" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bbQW1Ya1Ovsxz0HwXBIN-101">
-          <mxGeometry x="-0.0332" relative="1" as="geometry">
+        <mxCell id="bbQW1Ya1Ovsxz0HwXBIN-123" value="无" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;strokeColor=default;strokeWidth=3;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=1;fillColor=#0000FF;labelBackgroundColor=#000000;" vertex="1" connectable="0" parent="bbQW1Ya1Ovsxz0HwXBIN-121">
+          <mxGeometry x="0.12" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bbQW1Ya1Ovsxz0HwXBIN-109" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#FFFFFF;" edge="1" parent="1" source="bbQW1Ya1Ovsxz0HwXBIN-98" target="bbQW1Ya1Ovsxz0HwXBIN-108">
+        <mxCell id="bbQW1Ya1Ovsxz0HwXBIN-124" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FFFFFF;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=1;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="bbQW1Ya1Ovsxz0HwXBIN-98" target="bbQW1Ya1Ovsxz0HwXBIN-108">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bbQW1Ya1Ovsxz0HwXBIN-110" value="有" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bbQW1Ya1Ovsxz0HwXBIN-109">
-          <mxGeometry x="-0.0813" y="-1" relative="1" as="geometry">
+        <mxCell id="bbQW1Ya1Ovsxz0HwXBIN-125" value="有" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=1;labelBackgroundColor=#000000;" vertex="1" connectable="0" parent="bbQW1Ya1Ovsxz0HwXBIN-124">
+          <mxGeometry x="-0.0816" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="bbQW1Ya1Ovsxz0HwXBIN-98" value="&lt;font color=&quot;#ffffff&quot;&gt;有手机连接设备？&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#0000FF;rounded=1;fontStyle=1;strokeWidth=3;" vertex="1" parent="1">
           <mxGeometry x="38.5" y="456" width="113" height="90.25" as="geometry" />
-        </mxCell>
-        <mxCell id="bbQW1Ya1Ovsxz0HwXBIN-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#FFFFFF;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="bbQW1Ya1Ovsxz0HwXBIN-100" target="bbQW1Ya1Ovsxz0HwXBIN-96">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="35" y="386.0949999999998" as="targetPoint" />
-            <mxPoint x="-97.9655172413793" y="533.7475404333229" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="-98" y="384" />
-              <mxPoint x="35" y="384" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="bbQW1Ya1Ovsxz0HwXBIN-100" value="&lt;font color=&quot;#ffffff&quot;&gt;超过1分钟后关闭广播进入低功耗模式，间隔10分钟再打开广播&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#0000FF;rounded=1;fontStyle=1;strokeWidth=3;" vertex="1" parent="1">
-          <mxGeometry x="-172" y="442" width="150.5" height="120" as="geometry" />
         </mxCell>
         <mxCell id="bbQW1Ya1Ovsxz0HwXBIN-112" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="bbQW1Ya1Ovsxz0HwXBIN-108" target="bbQW1Ya1Ovsxz0HwXBIN-111">
           <mxGeometry relative="1" as="geometry" />
@@ -90,8 +82,18 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bbQW1Ya1Ovsxz0HwXBIN-111" value="是否断开ble连接" style="rhombus;whiteSpace=wrap;html=1;fillColor=#0000FF;rounded=1;fontStyle=1;strokeWidth=3;fontColor=#FFFFFF;labelBorderColor=default;" vertex="1" parent="1">
-          <mxGeometry x="62.5" y="756.07" width="65" height="80" as="geometry" />
+        <mxCell id="bbQW1Ya1Ovsxz0HwXBIN-111" value="是否断开ble连接" style="rhombus;whiteSpace=wrap;html=1;fillColor=#0000FF;rounded=1;fontStyle=1;strokeWidth=3;fontColor=#FFFFFF;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="62.5" y="756.07" width="65" height="87.93" as="geometry" />
+        </mxCell>
+        <mxCell id="bbQW1Ya1Ovsxz0HwXBIN-122" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FFFFFF;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=1;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="bbQW1Ya1Ovsxz0HwXBIN-120" target="bbQW1Ya1Ovsxz0HwXBIN-96">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-115" y="386" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bbQW1Ya1Ovsxz0HwXBIN-120" value="&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;超过1分钟后关闭广播进入低功耗模式，间隔10分钟再打开广播&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0000FF;fontStyle=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="-193" y="471.13" width="155" height="61.88" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
