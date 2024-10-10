@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0" version="24.7.17">
   <diagram name="Page-1" id="c7558073-3199-34d8-9f00-42111426c3f3">
-    <mxGraphModel dx="1825" dy="787" grid="1" gridSize="24" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="826" pageHeight="1169" background="#000099" math="0" shadow="0">
+    <mxGraphModel dx="1825" dy="787" grid="0" gridSize="24" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="826" pageHeight="1169" background="#000099" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,29 +10,14 @@
         <mxCell id="2" value="&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;1,串口等外设初始化&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;2，蓝牙ble初始化&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;3、电极电压输出控制任务初始化&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;4，ADC读取初始化&lt;/font&gt;&lt;/p&gt;" style="verticalAlign=middle;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=1;fontStyle=1;strokeWidth=3;fillColor=#0000FF;" parent="1" vertex="1">
           <mxGeometry x="-5" y="228.5" width="200" height="83.5" as="geometry" />
         </mxCell>
-        <mxCell id="3" value="Engineering" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFFFCC" parent="1" vertex="1">
-          <mxGeometry x="246" y="126" width="90" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="4" value="app start" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#0066CC;" parent="1" vertex="1">
           <mxGeometry x="50" y="106" width="90" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="6" value="&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;&lt;strong&gt;Process 2&lt;br /&gt;&lt;/strong&gt;&lt;/p&gt;&lt;hr /&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;System Analysis&lt;/p&gt;" style="verticalAlign=middle;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=1;fontStyle=1;strokeWidth=3;fillColor=#E6FFCC" parent="1" vertex="1">
-          <mxGeometry x="390" y="146" width="110" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="36" value="" style="edgeStyle=none;noEdgeStyle=1;strokeColor=#990000;strokeWidth=2" parent="1" source="3" target="2" edge="1">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="20" y="250" as="sourcePoint" />
-            <mxPoint x="120" y="150" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="37" value="" style="edgeStyle=none;noEdgeStyle=1;strokeColor=#FFFFFF;strokeWidth=2" parent="1" source="4" target="2" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="280" y="190" as="sourcePoint" />
             <mxPoint x="380" y="90" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="53" value="Desired &#xa;functionality" style="text;spacingTop=-5;align=center;fontColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="528" width="30" height="20" as="geometry" />
         </mxCell>
         <mxCell id="bbQW1Ya1Ovsxz0HwXBIN-99" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#FFFFFF;" edge="1" parent="1" source="bbQW1Ya1Ovsxz0HwXBIN-96" target="bbQW1Ya1Ovsxz0HwXBIN-98">
           <mxGeometry relative="1" as="geometry" />
@@ -48,11 +33,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bbQW1Ya1Ovsxz0HwXBIN-105" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#FFFFFF;" edge="1" parent="1" source="bbQW1Ya1Ovsxz0HwXBIN-98" target="bbQW1Ya1Ovsxz0HwXBIN-104">
+        <mxCell id="bbQW1Ya1Ovsxz0HwXBIN-109" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#FFFFFF;" edge="1" parent="1" source="bbQW1Ya1Ovsxz0HwXBIN-98" target="bbQW1Ya1Ovsxz0HwXBIN-108">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bbQW1Ya1Ovsxz0HwXBIN-107" value="有" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bbQW1Ya1Ovsxz0HwXBIN-105">
-          <mxGeometry x="-0.0164" y="1" relative="1" as="geometry">
+        <mxCell id="bbQW1Ya1Ovsxz0HwXBIN-110" value="有" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bbQW1Ya1Ovsxz0HwXBIN-109">
+          <mxGeometry x="-0.0813" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -72,8 +57,41 @@
         <mxCell id="bbQW1Ya1Ovsxz0HwXBIN-100" value="&lt;font color=&quot;#ffffff&quot;&gt;超过1分钟后关闭广播进入低功耗模式，间隔10分钟再打开广播&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#0000FF;rounded=1;fontStyle=1;strokeWidth=3;" vertex="1" parent="1">
           <mxGeometry x="-172" y="442" width="150.5" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="bbQW1Ya1Ovsxz0HwXBIN-104" value="&lt;font color=&quot;#ffffff&quot;&gt;ble连接手机后&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#0000FF;rounded=1;fontStyle=1;strokeWidth=3;" vertex="1" parent="1">
-          <mxGeometry x="38.5" y="600" width="113" height="90.25" as="geometry" />
+        <mxCell id="bbQW1Ya1Ovsxz0HwXBIN-112" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="bbQW1Ya1Ovsxz0HwXBIN-108" target="bbQW1Ya1Ovsxz0HwXBIN-111">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bbQW1Ya1Ovsxz0HwXBIN-108" value="&lt;font color=&quot;#ffffff&quot;&gt;ble连接手机后&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#ffffff&quot;&gt;监控相关状态变量&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ffffff&quot;&gt;查看是否要打开电极输出或改变波形或改变电压&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#0000FF;rounded=1;fontStyle=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="28.5" y="600" width="133" height="77.38" as="geometry" />
+        </mxCell>
+        <mxCell id="bbQW1Ya1Ovsxz0HwXBIN-113" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FFFFFF;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=1;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="bbQW1Ya1Ovsxz0HwXBIN-111" target="bbQW1Ya1Ovsxz0HwXBIN-108">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-24" y="792" />
+              <mxPoint x="-24" y="639" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bbQW1Ya1Ovsxz0HwXBIN-117" value="无" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;strokeColor=default;strokeWidth=3;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=1;fillColor=#0000FF;labelBackgroundColor=#000000;" vertex="1" connectable="0" parent="bbQW1Ya1Ovsxz0HwXBIN-113">
+          <mxGeometry x="0.1469" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bbQW1Ya1Ovsxz0HwXBIN-118" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=1;labelBackgroundColor=default;endArrow=classic;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bbQW1Ya1Ovsxz0HwXBIN-111" target="bbQW1Ya1Ovsxz0HwXBIN-96">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="312" y="480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="264" y="792" />
+              <mxPoint x="264" y="386" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bbQW1Ya1Ovsxz0HwXBIN-119" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;strokeColor=default;strokeWidth=3;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=1;fillColor=#0000FF;labelBackgroundColor=#000000;" vertex="1" connectable="0" parent="bbQW1Ya1Ovsxz0HwXBIN-118">
+          <mxGeometry x="-0.7836" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bbQW1Ya1Ovsxz0HwXBIN-111" value="是否断开ble连接" style="rhombus;whiteSpace=wrap;html=1;fillColor=#0000FF;rounded=1;fontStyle=1;strokeWidth=3;fontColor=#FFFFFF;labelBorderColor=default;" vertex="1" parent="1">
+          <mxGeometry x="62.5" y="756.07" width="65" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
