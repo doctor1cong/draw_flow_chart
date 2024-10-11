@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0" version="24.7.17">
   <diagram name="Page-1" id="c7558073-3199-34d8-9f00-42111426c3f3">
-    <mxGraphModel dx="1825" dy="787" grid="0" gridSize="24" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="826" pageHeight="1169" background="#000099" math="0" shadow="0">
+    <mxGraphModel dx="2337" dy="904" grid="0" gridSize="24" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="826" pageHeight="1169" background="#000099" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -56,10 +56,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PsqxnXAQ3Fkz8UXOKLwo-41" value="&lt;p style=&quot;color: rgb(0, 0, 0); text-wrap: nowrap; margin: 4px 0px 0px;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;libmodbus初始化&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;color: rgb(0, 0, 0); text-wrap: nowrap; margin: 4px 0px 0px;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;（从机模式&lt;/font&gt;&lt;span style=&quot;color: rgb(255, 255, 255); background-color: initial;&quot;&gt;）&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;color: rgb(0, 0, 0); text-wrap: nowrap; margin: 4px 0px 0px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="whiteSpace=wrap;html=1;fillColor=#0000FF;rounded=1;fontStyle=1;strokeWidth=3;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="193" y="420.5" width="158" height="74" as="geometry" />
+          <mxGeometry x="155" y="420.5" width="158" height="74" as="geometry" />
         </mxCell>
         <mxCell id="PsqxnXAQ3Fkz8UXOKLwo-42" value="Modbus通信任务" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="187" y="384" width="60" height="30" as="geometry" />
+          <mxGeometry x="149" y="384" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="PsqxnXAQ3Fkz8UXOKLwo-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;strokeWidth=2;" edge="1" parent="1" target="PsqxnXAQ3Fkz8UXOKLwo-44" source="2">
           <mxGeometry relative="1" as="geometry">
@@ -86,11 +86,11 @@
         <mxCell id="PsqxnXAQ3Fkz8UXOKLwo-48" value="设备目前是否已经标定过货架总高度？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#0000FF;fontColor=#FFFFFF;rounded=1;fontStyle=1;strokeWidth=3;" vertex="1" parent="1">
           <mxGeometry x="-80" y="537" width="128" height="106" as="geometry" />
         </mxCell>
-        <mxCell id="PsqxnXAQ3Fkz8UXOKLwo-57" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="PsqxnXAQ3Fkz8UXOKLwo-50" target="PsqxnXAQ3Fkz8UXOKLwo-56">
+        <mxCell id="PsqxnXAQ3Fkz8UXOKLwo-73" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="PsqxnXAQ3Fkz8UXOKLwo-50" target="PsqxnXAQ3Fkz8UXOKLwo-72">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PsqxnXAQ3Fkz8UXOKLwo-58" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="PsqxnXAQ3Fkz8UXOKLwo-57">
-          <mxGeometry x="-0.0784" y="1" relative="1" as="geometry">
+        <mxCell id="PsqxnXAQ3Fkz8UXOKLwo-74" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="PsqxnXAQ3Fkz8UXOKLwo-73">
+          <mxGeometry x="-0.1516" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -106,7 +106,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="PsqxnXAQ3Fkz8UXOKLwo-56" value="根据获取到的激光头的高度和疫苗盒单位高度来计算当前的疫苗盒数量" style="rhombus;whiteSpace=wrap;html=1;fillColor=#0000FF;fontColor=#FFFFFF;rounded=1;fontStyle=1;strokeWidth=3;" vertex="1" parent="1">
-          <mxGeometry x="-99.5" y="842" width="167" height="106" as="geometry" />
+          <mxGeometry x="-99.5" y="928" width="167" height="106" as="geometry" />
         </mxCell>
         <mxCell id="PsqxnXAQ3Fkz8UXOKLwo-59" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="PsqxnXAQ3Fkz8UXOKLwo-50" target="PsqxnXAQ3Fkz8UXOKLwo-50">
           <mxGeometry relative="1" as="geometry" />
@@ -128,16 +128,32 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PsqxnXAQ3Fkz8UXOKLwo-64" value="1，更新Modbus寄存器的数据：传感器高度，计算得到的疫苗盒数量等。&lt;div&gt;2，判断是否上位机设置从机设备地址，有则更新Modbus的设备地址。&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#0000FF;fontColor=#FFFFFF;rounded=1;fontStyle=1;strokeWidth=3;" vertex="1" parent="1">
-          <mxGeometry x="191.25" y="533" width="161.5" height="103" as="geometry" />
+          <mxGeometry x="153.25" y="533" width="161.5" height="103" as="geometry" />
         </mxCell>
-        <mxCell id="PsqxnXAQ3Fkz8UXOKLwo-66" value="" style="whiteSpace=wrap;html=1;fillColor=#0000FF;fontColor=#FFFFFF;rounded=1;fontStyle=1;strokeWidth=3;" vertex="1" parent="1">
-          <mxGeometry x="212" y="684" width="120" height="60" as="geometry" />
+        <mxCell id="PsqxnXAQ3Fkz8UXOKLwo-76" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="PsqxnXAQ3Fkz8UXOKLwo-66">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="234" y="513" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="234" y="788" />
+              <mxPoint x="396" y="788" />
+              <mxPoint x="396" y="513" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PsqxnXAQ3Fkz8UXOKLwo-66" value="上位机下发命令处理：货架高度标定，疫苗盒高度标定，更改从机地址……" style="whiteSpace=wrap;html=1;fillColor=#0000FF;fontColor=#FFFFFF;rounded=1;fontStyle=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="174" y="684" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PsqxnXAQ3Fkz8UXOKLwo-68" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;elbow=vertical;" edge="1" parent="1" source="PsqxnXAQ3Fkz8UXOKLwo-46" target="PsqxnXAQ3Fkz8UXOKLwo-46">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PsqxnXAQ3Fkz8UXOKLwo-69" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="PsqxnXAQ3Fkz8UXOKLwo-44" target="PsqxnXAQ3Fkz8UXOKLwo-44">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PsqxnXAQ3Fkz8UXOKLwo-75" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="PsqxnXAQ3Fkz8UXOKLwo-72" target="PsqxnXAQ3Fkz8UXOKLwo-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PsqxnXAQ3Fkz8UXOKLwo-72" value="保存相关参数到参数库" style="whiteSpace=wrap;html=1;fillColor=#0000FF;fontColor=#FFFFFF;rounded=1;fontStyle=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="-76" y="835" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
