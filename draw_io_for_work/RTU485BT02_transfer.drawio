@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0" version="24.7.17">
   <diagram name="Page-1" id="c7558073-3199-34d8-9f00-42111426c3f3">
-    <mxGraphModel dx="2466" dy="1141" grid="0" gridSize="24" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="826" pageHeight="1169" background="#000099" math="0" shadow="0">
+    <mxGraphModel dx="1226" dy="456" grid="0" gridSize="24" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="826" pageHeight="1169" background="#000099" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -12,7 +12,7 @@
         <mxCell id="-sDVmUkW7w9gJZ2iMdyc-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;strokeWidth=2;" parent="1" source="2" target="-sDVmUkW7w9gJZ2iMdyc-37" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;1,串口等外设初始化&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;2，蓝牙ble初始化，广播&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;3、lib Modbus初始化（主机模式&lt;/font&gt;&lt;span style=&quot;color: rgb(255, 255, 255); background-color: initial;&quot;&gt;）&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=middle;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=1;fontStyle=1;strokeWidth=3;fillColor=#0000FF;" parent="1" vertex="1">
+        <mxCell id="2" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;1,串口等外设初始化&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;2，创建各个功能的任务&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;3、lib Modbus初始化（从机模式&lt;/font&gt;&lt;span style=&quot;color: rgb(255, 255, 255); background-color: initial;&quot;&gt;）&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;span style=&quot;color: rgb(255, 255, 255); background-color: initial;&quot;&gt;4，参数库的初始化&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;span style=&quot;color: rgb(255, 255, 255); background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=middle;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=1;fontStyle=1;strokeWidth=3;fillColor=#0000FF;" parent="1" vertex="1">
           <mxGeometry x="-5" y="228.5" width="200" height="83.5" as="geometry" />
         </mxCell>
         <mxCell id="4" value="app start" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#0066CC;" parent="1" vertex="1">
@@ -60,7 +60,7 @@
         <mxCell id="-sDVmUkW7w9gJZ2iMdyc-37" value="系统上电后一直通过Modbus读取恒温罐的4g的IMEI号和CCID号 ，读到后修改ble广播名称，关闭任务。" style="whiteSpace=wrap;html=1;fillColor=#0000FF;rounded=1;fontStyle=1;strokeWidth=3;fontColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="-278" y="320" width="158" height="74" as="geometry" />
         </mxCell>
-        <mxCell id="-sDVmUkW7w9gJZ2iMdyc-39" value="任务1" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="-sDVmUkW7w9gJZ2iMdyc-39" value="任务" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="-98" y="238" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-sDVmUkW7w9gJZ2iMdyc-40" value="主循环" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=1;" parent="1" vertex="1">
