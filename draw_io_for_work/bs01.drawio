@@ -74,10 +74,18 @@
             <mxPoint x="691" y="260.5" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PsqxnXAQ3Fkz8UXOKLwo-44" value="1、控制led闪烁&lt;div&gt;2，定时喂狗。&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#0000FF;rounded=1;fontStyle=1;strokeWidth=3;fontColor=#FFFFFF;" parent="1" vertex="1">
+        <mxCell id="sXCSSm3qtaqTTpKXIJX--55" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="PsqxnXAQ3Fkz8UXOKLwo-44" target="sXCSSm3qtaqTTpKXIJX--54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sXCSSm3qtaqTTpKXIJX--56" value="配网成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="sXCSSm3qtaqTTpKXIJX--55">
+          <mxGeometry x="-0.2266" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PsqxnXAQ3Fkz8UXOKLwo-44" value="等待WiFi配网成功" style="whiteSpace=wrap;html=1;fillColor=#0000FF;rounded=1;fontStyle=1;strokeWidth=3;fontColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="492" y="417.5" width="158" height="74" as="geometry" />
         </mxCell>
-        <mxCell id="PsqxnXAQ3Fkz8UXOKLwo-45" value="led闪烁和看门狗喂狗任务" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="PsqxnXAQ3Fkz8UXOKLwo-45" value="tcp socket 任务" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="463" y="381" width="96" height="30" as="geometry" />
         </mxCell>
         <mxCell id="PsqxnXAQ3Fkz8UXOKLwo-46" value="根据不同状态控制led显示不同效果，常亮，闪烁等" style="whiteSpace=wrap;html=1;fillColor=#0000FF;fontColor=#FFFFFF;rounded=1;fontStyle=1;strokeWidth=3;" parent="1" vertex="1">
@@ -143,8 +151,13 @@
         <mxCell id="PsqxnXAQ3Fkz8UXOKLwo-68" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;elbow=vertical;" parent="1" source="PsqxnXAQ3Fkz8UXOKLwo-46" target="PsqxnXAQ3Fkz8UXOKLwo-46" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PsqxnXAQ3Fkz8UXOKLwo-69" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="PsqxnXAQ3Fkz8UXOKLwo-44" target="PsqxnXAQ3Fkz8UXOKLwo-44" edge="1">
+        <mxCell id="PsqxnXAQ3Fkz8UXOKLwo-69" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;elbow=vertical;" parent="1" source="PsqxnXAQ3Fkz8UXOKLwo-44" target="PsqxnXAQ3Fkz8UXOKLwo-44" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sXCSSm3qtaqTTpKXIJX--53" value="未配网" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="PsqxnXAQ3Fkz8UXOKLwo-69">
+          <mxGeometry x="-0.0982" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="PsqxnXAQ3Fkz8UXOKLwo-75" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.45;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="PsqxnXAQ3Fkz8UXOKLwo-72" target="PsqxnXAQ3Fkz8UXOKLwo-50" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -185,6 +198,57 @@
         </mxCell>
         <mxCell id="sXCSSm3qtaqTTpKXIJX--51" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="PsqxnXAQ3Fkz8UXOKLwo-66" target="PsqxnXAQ3Fkz8UXOKLwo-66">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sXCSSm3qtaqTTpKXIJX--58" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="sXCSSm3qtaqTTpKXIJX--54" target="sXCSSm3qtaqTTpKXIJX--57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sXCSSm3qtaqTTpKXIJX--61" value="连接" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="sXCSSm3qtaqTTpKXIJX--58">
+          <mxGeometry x="-0.1931" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sXCSSm3qtaqTTpKXIJX--54" value="等待用户socket连接" style="whiteSpace=wrap;html=1;fillColor=#0000FF;fontColor=#FFFFFF;rounded=1;fontStyle=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="511" y="570.25" width="120" height="39.5" as="geometry" />
+        </mxCell>
+        <mxCell id="sXCSSm3qtaqTTpKXIJX--64" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="sXCSSm3qtaqTTpKXIJX--57" target="sXCSSm3qtaqTTpKXIJX--63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sXCSSm3qtaqTTpKXIJX--67" value="断开连接" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="sXCSSm3qtaqTTpKXIJX--64">
+          <mxGeometry x="-0.3053" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sXCSSm3qtaqTTpKXIJX--57" value="1，启动音频数据采集2，&lt;span style=&quot;background-color: initial;&quot;&gt;将音频数据上传&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#0000FF;fontColor=#FFFFFF;rounded=1;fontStyle=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="511" y="668" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sXCSSm3qtaqTTpKXIJX--59" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="sXCSSm3qtaqTTpKXIJX--54" target="sXCSSm3qtaqTTpKXIJX--54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sXCSSm3qtaqTTpKXIJX--60" value="未连接" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="sXCSSm3qtaqTTpKXIJX--59">
+          <mxGeometry x="-0.1291" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sXCSSm3qtaqTTpKXIJX--66" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sXCSSm3qtaqTTpKXIJX--63" target="sXCSSm3qtaqTTpKXIJX--54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="756.1428571428571" y="536.5714285714287" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="726" y="809" />
+              <mxPoint x="726" y="550" />
+              <mxPoint x="571" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sXCSSm3qtaqTTpKXIJX--63" value="停止音频数据采集和上传" style="whiteSpace=wrap;html=1;fillColor=#0000FF;fontColor=#FFFFFF;rounded=1;fontStyle=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="511" y="779" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sXCSSm3qtaqTTpKXIJX--68" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="sXCSSm3qtaqTTpKXIJX--57" target="sXCSSm3qtaqTTpKXIJX--57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sXCSSm3qtaqTTpKXIJX--69" value="持续采集发送" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="sXCSSm3qtaqTTpKXIJX--68">
+          <mxGeometry x="-0.0992" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
