@@ -10,8 +10,8 @@
         <mxCell id="sXCSSm3qtaqTTpKXIJX--42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;strokeWidth=2;" edge="1" parent="1" source="2" target="sXCSSm3qtaqTTpKXIJX--38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2" value="&lt;p style=&quot;margin: 4px 0px 0px;&quot;&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;初始化nvs参数库&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=middle;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=1;fontStyle=1;strokeWidth=3;fillColor=#0000FF;arcSize=25;" parent="1" vertex="1">
-          <mxGeometry x="-5" y="253" width="200" height="24" as="geometry" />
+        <mxCell id="2" value="&lt;p style=&quot;margin: 4px 0px 0px;&quot;&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;1，初始化nvs参数库&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px;&quot;&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;2，创建不同的功能任务&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px;&quot;&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=middle;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=1;fontStyle=1;strokeWidth=3;fillColor=#0000FF;arcSize=25;" parent="1" vertex="1">
+          <mxGeometry x="-5" y="253" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4" value="BS01&#xa;app start" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#0066CC;" parent="1" vertex="1">
           <mxGeometry x="50" y="148" width="90" height="60" as="geometry" />
