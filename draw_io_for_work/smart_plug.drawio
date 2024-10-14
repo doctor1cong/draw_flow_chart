@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0" version="24.7.17">
   <diagram name="Page-1" id="c7558073-3199-34d8-9f00-42111426c3f3">
-    <mxGraphModel dx="2330" dy="845" grid="0" gridSize="24" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="826" pageHeight="1169" background="#000099" math="0" shadow="0">
+    <mxGraphModel dx="1856" dy="579" grid="0" gridSize="24" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="826" pageHeight="1169" background="#000099" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -408,6 +408,101 @@
         </mxCell>
         <mxCell id="46jNm4-g0Nsb7Lgoay_Q-71" value="……待做~" style="whiteSpace=wrap;html=1;fillColor=#0000FF;fontColor=#FFFFFF;rounded=1;fontStyle=1;strokeWidth=3;" vertex="1" parent="1">
           <mxGeometry x="1849" y="606" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="46jNm4-g0Nsb7Lgoay_Q-84" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="46jNm4-g0Nsb7Lgoay_Q-75" target="46jNm4-g0Nsb7Lgoay_Q-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="46jNm4-g0Nsb7Lgoay_Q-75" value="1、将最新的固件包上传到服务器。&lt;div&gt;2、先获取当前固件版本号，&lt;span style=&quot;background-color: initial;&quot;&gt;后续将版本号通过mqtt上传给服务器。&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#0000FF;rounded=1;fontStyle=1;strokeWidth=3;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="2017" y="399" width="192" height="66.53" as="geometry" />
+        </mxCell>
+        <mxCell id="46jNm4-g0Nsb7Lgoay_Q-76" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="46jNm4-g0Nsb7Lgoay_Q-77" target="46jNm4-g0Nsb7Lgoay_Q-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="46jNm4-g0Nsb7Lgoay_Q-77" value="app判断当前运行的固件版本和最新的固件版本号比较，如果需要更新则通过mqtt下发升级的http路径进行升级。" style="whiteSpace=wrap;html=1;fillColor=#0000FF;fontColor=#FFFFFF;rounded=1;fontStyle=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="2008.5" y="546" width="209" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="46jNm4-g0Nsb7Lgoay_Q-87" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="46jNm4-g0Nsb7Lgoay_Q-78" target="46jNm4-g0Nsb7Lgoay_Q-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="46jNm4-g0Nsb7Lgoay_Q-78" value="&lt;div&gt;1，等待接收ota升级的http路径&lt;/div&gt;2，配置ota参数，进行ota升级" style="whiteSpace=wrap;html=1;fillColor=#0000FF;fontColor=#FFFFFF;rounded=1;fontStyle=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="2016" y="643" width="194" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="46jNm4-g0Nsb7Lgoay_Q-79" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="2" target="46jNm4-g0Nsb7Lgoay_Q-75">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="219" y="297" as="sourcePoint" />
+            <mxPoint x="1933" y="423" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="46jNm4-g0Nsb7Lgoay_Q-80" value="ota任务" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="2005" y="365" width="96" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="46jNm4-g0Nsb7Lgoay_Q-85" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="46jNm4-g0Nsb7Lgoay_Q-83" target="46jNm4-g0Nsb7Lgoay_Q-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="46jNm4-g0Nsb7Lgoay_Q-83" value="等待WiFi配网完成" style="whiteSpace=wrap;html=1;fillColor=#0000FF;fontColor=#FFFFFF;rounded=1;fontStyle=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="2053" y="488" width="120" height="32.53" as="geometry" />
+        </mxCell>
+        <mxCell id="46jNm4-g0Nsb7Lgoay_Q-89" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="46jNm4-g0Nsb7Lgoay_Q-86" target="46jNm4-g0Nsb7Lgoay_Q-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="46jNm4-g0Nsb7Lgoay_Q-86" value="接收升级包数据" style="whiteSpace=wrap;html=1;fillColor=#0000FF;fontColor=#FFFFFF;rounded=1;fontStyle=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="2053" y="704" width="120" height="29.75" as="geometry" />
+        </mxCell>
+        <mxCell id="46jNm4-g0Nsb7Lgoay_Q-90" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FFFFFF;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="46jNm4-g0Nsb7Lgoay_Q-88" target="46jNm4-g0Nsb7Lgoay_Q-86">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2193" y="777" />
+              <mxPoint x="2193" y="719" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="46jNm4-g0Nsb7Lgoay_Q-91" value="未完毕" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="46jNm4-g0Nsb7Lgoay_Q-90">
+          <mxGeometry x="-0.1756" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="46jNm4-g0Nsb7Lgoay_Q-96" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="46jNm4-g0Nsb7Lgoay_Q-88" target="46jNm4-g0Nsb7Lgoay_Q-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="46jNm4-g0Nsb7Lgoay_Q-97" value="接收完毕" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="46jNm4-g0Nsb7Lgoay_Q-96">
+          <mxGeometry x="-0.1591" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="46jNm4-g0Nsb7Lgoay_Q-88" value="接收完毕？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#0000FF;fontColor=#FFFFFF;rounded=1;fontStyle=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="2073" y="755.005" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="46jNm4-g0Nsb7Lgoay_Q-101" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="46jNm4-g0Nsb7Lgoay_Q-95" target="46jNm4-g0Nsb7Lgoay_Q-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="46jNm4-g0Nsb7Lgoay_Q-102" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="46jNm4-g0Nsb7Lgoay_Q-95">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2113" y="623" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2314" y="913" />
+              <mxPoint x="2314" y="623" />
+              <mxPoint x="2113" y="623" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="46jNm4-g0Nsb7Lgoay_Q-103" value="失败" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="46jNm4-g0Nsb7Lgoay_Q-102">
+          <mxGeometry x="-0.8398" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="46jNm4-g0Nsb7Lgoay_Q-95" value="ota成功？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#0000FF;fontColor=#FFFFFF;rounded=1;fontStyle=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="2074" y="878.995" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="46jNm4-g0Nsb7Lgoay_Q-98" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="46jNm4-g0Nsb7Lgoay_Q-78" target="46jNm4-g0Nsb7Lgoay_Q-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="46jNm4-g0Nsb7Lgoay_Q-99" value="等待升级命令" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="46jNm4-g0Nsb7Lgoay_Q-98">
+          <mxGeometry x="-0.1435" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="46jNm4-g0Nsb7Lgoay_Q-100" value="重启app" style="whiteSpace=wrap;html=1;fillColor=#0000FF;fontColor=#FFFFFF;rounded=1;fontStyle=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="2054" y="980.9950000000001" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
