@@ -1,56 +1,185 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" version="26.0.15">
   <diagram id="piDafpqhtRUU5qUU-vj8" name="Page-1">
-    <mxGraphModel dx="1019" dy="934" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="792" dy="815" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="8962rQQDY3VNNf6We3Pp-17" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.video_conversation;fontSize=13;fontColor=#0066CC;rotation=90;" parent="1" vertex="1">
           <mxGeometry x="-40" y="130" width="310" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="EYgYRRq26y5m6NhYo8Rg-4" value="M" style="verticalLabelPosition=middle;shadow=0;dashed=0;align=center;html=1;verticalAlign=middle;strokeWidth=1;shape=ellipse;aspect=fixed;fontSize=35;" vertex="1" parent="1">
+        <mxCell id="EYgYRRq26y5m6NhYo8Rg-4" value="M" style="verticalLabelPosition=middle;shadow=0;dashed=0;align=center;html=1;verticalAlign=middle;strokeWidth=1;shape=ellipse;aspect=fixed;fontSize=35;" parent="1" vertex="1">
           <mxGeometry x="85" y="300" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EYgYRRq26y5m6NhYo8Rg-5" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="EYgYRRq26y5m6NhYo8Rg-5" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="115" y="290" as="sourcePoint" />
             <mxPoint x="115" y="-50" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EYgYRRq26y5m6NhYo8Rg-6" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EYgYRRq26y5m6NhYo8Rg-4" target="EYgYRRq26y5m6NhYo8Rg-4">
+        <mxCell id="EYgYRRq26y5m6NhYo8Rg-6" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="EYgYRRq26y5m6NhYo8Rg-4" target="EYgYRRq26y5m6NhYo8Rg-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EYgYRRq26y5m6NhYo8Rg-7" value="电机" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="EYgYRRq26y5m6NhYo8Rg-7" value="电机" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="180" y="315" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EYgYRRq26y5m6NhYo8Rg-8" value="电机轴向" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="EYgYRRq26y5m6NhYo8Rg-8" value="电机轴向" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="120" y="150" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EYgYRRq26y5m6NhYo8Rg-9" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#ED7100;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.i3en;rotation=0;" vertex="1" parent="1">
+        <mxCell id="EYgYRRq26y5m6NhYo8Rg-9" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#ED7100;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.i3en;rotation=0;" parent="1" vertex="1">
           <mxGeometry x="91" y="10" width="48" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="EYgYRRq26y5m6NhYo8Rg-12" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="EYgYRRq26y5m6NhYo8Rg-12" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="251" y="45" as="sourcePoint" />
             <mxPoint x="202" y="71" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EYgYRRq26y5m6NhYo8Rg-13" value="设备" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="EYgYRRq26y5m6NhYo8Rg-13" value="设备" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="240" y="28" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EYgYRRq26y5m6NhYo8Rg-14" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="EYgYRRq26y5m6NhYo8Rg-14" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="188" y="-9" as="sourcePoint" />
             <mxPoint x="139" y="17" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EYgYRRq26y5m6NhYo8Rg-15" value="惯性测量单元IMU传感器" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="EYgYRRq26y5m6NhYo8Rg-15" value="惯性测量单元IMU传感器" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="145" y="-41" width="141" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EYgYRRq26y5m6NhYo8Rg-16" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.jumpInArrow;dy=15;dx=38;arrowHead=55;" vertex="1" parent="1">
-          <mxGeometry x="60" y="419" width="100" height="100" as="geometry" />
+        <mxCell id="iWS3-X6g6tCLlBq6D7XB-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iWS3-X6g6tCLlBq6D7XB-1" target="iWS3-X6g6tCLlBq6D7XB-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iWS3-X6g6tCLlBq6D7XB-1" value="装配好电机&lt;div&gt;和IMU传感器&lt;/div&gt;" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="16" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iWS3-X6g6tCLlBq6D7XB-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iWS3-X6g6tCLlBq6D7XB-4" target="iWS3-X6g6tCLlBq6D7XB-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iWS3-X6g6tCLlBq6D7XB-4" value="转动过程中实时测量加速度、角速度、姿态角" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="866" y="26" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iWS3-X6g6tCLlBq6D7XB-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iWS3-X6g6tCLlBq6D7XB-6" target="iWS3-X6g6tCLlBq6D7XB-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iWS3-X6g6tCLlBq6D7XB-6" value="通过计算机算法分析测量的数据得出抖动结果" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1035" y="26" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iWS3-X6g6tCLlBq6D7XB-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iWS3-X6g6tCLlBq6D7XB-8" target="iWS3-X6g6tCLlBq6D7XB-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iWS3-X6g6tCLlBq6D7XB-8" value="控制电机转动" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="731" y="26" width="92" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iWS3-X6g6tCLlBq6D7XB-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iWS3-X6g6tCLlBq6D7XB-12" target="iWS3-X6g6tCLlBq6D7XB-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iWS3-X6g6tCLlBq6D7XB-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iWS3-X6g6tCLlBq6D7XB-12" target="iWS3-X6g6tCLlBq6D7XB-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iWS3-X6g6tCLlBq6D7XB-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iWS3-X6g6tCLlBq6D7XB-12" target="iWS3-X6g6tCLlBq6D7XB-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iWS3-X6g6tCLlBq6D7XB-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iWS3-X6g6tCLlBq6D7XB-12" target="iWS3-X6g6tCLlBq6D7XB-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iWS3-X6g6tCLlBq6D7XB-12" value="结构设计安装" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="556.5" y="295.5" width="91" height="91" as="geometry" />
+        </mxCell>
+        <mxCell id="iWS3-X6g6tCLlBq6D7XB-13" value="电机转动控制模块" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="702" y="301" width="126" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iWS3-X6g6tCLlBq6D7XB-15" value="惯性测量单元（IMU） 传感器模块" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="543.5" y="174" width="117" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iWS3-X6g6tCLlBq6D7XB-18" value="数据接收模块" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="542" y="437" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iWS3-X6g6tCLlBq6D7XB-20" value="抖动检测算法" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="371" y="311" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iWS3-X6g6tCLlBq6D7XB-22" value="根据抖动结果评估稳定度" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1201" y="26" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iWS3-X6g6tCLlBq6D7XB-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iWS3-X6g6tCLlBq6D7XB-25" target="iWS3-X6g6tCLlBq6D7XB-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iWS3-X6g6tCLlBq6D7XB-25" value="惯性测量单元（IMU） 传感器模块&lt;div&gt;发出数据&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="53" y="609" width="117" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iWS3-X6g6tCLlBq6D7XB-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iWS3-X6g6tCLlBq6D7XB-26" target="iWS3-X6g6tCLlBq6D7XB-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iWS3-X6g6tCLlBq6D7XB-26" value="串口转USB" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="197.5" y="622" width="72.5" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="iWS3-X6g6tCLlBq6D7XB-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iWS3-X6g6tCLlBq6D7XB-28" target="iWS3-X6g6tCLlBq6D7XB-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iWS3-X6g6tCLlBq6D7XB-28" value="USB连接线" style="whiteSpace=wrap;html=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="306" y="616.56" width="75.87" height="44.88" as="geometry" />
+        </mxCell>
+        <mxCell id="iWS3-X6g6tCLlBq6D7XB-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iWS3-X6g6tCLlBq6D7XB-30" target="iWS3-X6g6tCLlBq6D7XB-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iWS3-X6g6tCLlBq6D7XB-30" value="USB转串口" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="417.81" y="622" width="73.19" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="iWS3-X6g6tCLlBq6D7XB-32" value="计算机接收数据" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="535" y="622" width="73.19" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="iWS3-X6g6tCLlBq6D7XB-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iWS3-X6g6tCLlBq6D7XB-34" target="iWS3-X6g6tCLlBq6D7XB-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iWS3-X6g6tCLlBq6D7XB-34" value="初始化接收IMU传感器通信的串口，控制电机转动" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="37" y="746" width="117" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iWS3-X6g6tCLlBq6D7XB-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iWS3-X6g6tCLlBq6D7XB-35" target="iWS3-X6g6tCLlBq6D7XB-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iWS3-X6g6tCLlBq6D7XB-35" value="接收IMU测量姿态角数据，并算出运行差值数据。" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="189" y="746" width="119" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iWS3-X6g6tCLlBq6D7XB-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iWS3-X6g6tCLlBq6D7XB-37" target="iWS3-X6g6tCLlBq6D7XB-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iWS3-X6g6tCLlBq6D7XB-37" value="将数据进行&lt;div&gt;初次简单滤波&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="338" y="746" width="111" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iWS3-X6g6tCLlBq6D7XB-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iWS3-X6g6tCLlBq6D7XB-39" target="iWS3-X6g6tCLlBq6D7XB-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iWS3-X6g6tCLlBq6D7XB-39" value="分析初次滤波后的数据，得到初步分析结果" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="483" y="746" width="111" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iWS3-X6g6tCLlBq6D7XB-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iWS3-X6g6tCLlBq6D7XB-41" target="iWS3-X6g6tCLlBq6D7XB-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iWS3-X6g6tCLlBq6D7XB-41" value="根据初步分析结果确定数据波形的宽度和峰峰值。" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="483" y="842" width="111" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iWS3-X6g6tCLlBq6D7XB-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iWS3-X6g6tCLlBq6D7XB-43" target="iWS3-X6g6tCLlBq6D7XB-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iWS3-X6g6tCLlBq6D7XB-43" value="根据数据波形的宽度和峰峰值更新滤波参数" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="328" y="842" width="127" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iWS3-X6g6tCLlBq6D7XB-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iWS3-X6g6tCLlBq6D7XB-45" target="iWS3-X6g6tCLlBq6D7XB-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iWS3-X6g6tCLlBq6D7XB-45" value="进行第二次自适应参数的滤波" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="189" y="842" width="111" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iWS3-X6g6tCLlBq6D7XB-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iWS3-X6g6tCLlBq6D7XB-47" target="iWS3-X6g6tCLlBq6D7XB-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iWS3-X6g6tCLlBq6D7XB-47" value="对滤波好的数据进行分析统计" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="43" y="842" width="111" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iWS3-X6g6tCLlBq6D7XB-49" value="得出电机抖动&lt;div&gt;分析结果&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="43" y="960" width="111" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
