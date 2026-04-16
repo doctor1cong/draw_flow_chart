@@ -1,0 +1,19 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="MyXMwhMfVvx9MhDAk1xn">
+    <mxGraphModel dx="773" dy="453" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="light-dark(#FFFFFF,#D5E8D4)" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XdCxDhUQb0WtBzhEceP4-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;strokeColor=light-dark(#000000,#333333);" value="" vertex="1">
+          <mxGeometry height="250" width="590" x="130" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="XdCxDhUQb0WtBzhEceP4-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;strokeWidth=2;" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(51, 51, 51)); line-height: 180%; font-size: 14px;&quot;&gt;实际电机状态&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="130" x="360" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="XdCxDhUQb0WtBzhEceP4-7" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;strokeColor=light-dark(#000000,#333333);strokeWidth=2;" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(51, 51, 51));&quot;&gt;B&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="40" x="230" y="420" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
