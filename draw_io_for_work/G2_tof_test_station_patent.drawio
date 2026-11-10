@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="myQlQzABj5O7-5CL3W3M">
-    <mxGraphModel dx="2423" dy="971" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1593" dy="466" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -27,6 +27,21 @@
         </mxCell>
         <mxCell id="4ExKBsZfUwCyfcFVENd_-84" parent="A0FjSxf2DEIx02dKqMox-23" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/assets/material-symbols/1/Speed_Camera.svg;labelPerimeter=1;rotation=-40;direction=north;" value=" " vertex="1">
           <mxGeometry height="50" width="50" x="232.99862178478975" y="449.99862178478975" as="geometry" />
+        </mxCell>
+        <mxCell id="4ExKBsZfUwCyfcFVENd_-98" parent="A0FjSxf2DEIx02dKqMox-23" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="红外相机" vertex="1">
+          <mxGeometry height="30" width="60" x="160" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="4ExKBsZfUwCyfcFVENd_-101" edge="1" parent="A0FjSxf2DEIx02dKqMox-23" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="190" y="530" as="sourcePoint" />
+            <mxPoint x="240" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ExKBsZfUwCyfcFVENd_-102" edge="1" parent="A0FjSxf2DEIx02dKqMox-23" source="4ExKBsZfUwCyfcFVENd_-98" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.598;exitY=0.025;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="200" y="570" as="sourcePoint" />
+            <mxPoint x="250" y="520" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="A0FjSxf2DEIx02dKqMox-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#bac8d3;strokeColor=#23445d;" value="" vertex="1">
           <mxGeometry height="80" width="40" x="430" y="360" as="geometry" />
