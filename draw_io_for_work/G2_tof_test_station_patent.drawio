@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="myQlQzABj5O7-5CL3W3M">
-    <mxGraphModel dx="1593" dy="466" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2742" dy="1165" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -110,7 +110,7 @@
           <mxGeometry height="26" width="26" x="277" y="386" as="geometry" />
         </mxCell>
         <mxCell id="4ExKBsZfUwCyfcFVENd_-1" parent="1" style="swimlane;startSize=0;fillColor=light-dark(#FFFFFF,#979797);gradientColor=none;strokeWidth=1;" value="" vertex="1">
-          <mxGeometry height="790" width="1300" x="-324" y="730" as="geometry">
+          <mxGeometry height="790" width="1300" x="-360" y="710" as="geometry">
             <mxRectangle height="40" width="50" x="-190" y="760" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -250,6 +250,9 @@
         </mxCell>
         <mxCell id="4ExKBsZfUwCyfcFVENd_-95" parent="4ExKBsZfUwCyfcFVENd_-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="扫码相机" vertex="1">
           <mxGeometry height="20" width="110" x="1134" y="147.5" as="geometry" />
+        </mxCell>
+        <mxCell id="4ExKBsZfUwCyfcFVENd_-103" parent="4ExKBsZfUwCyfcFVENd_-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;" value="&lt;span&gt;&lt;b&gt;&lt;font style=&quot;font-size: 23px;&quot;&gt;侧视图&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="172.79" x="4" as="geometry" />
         </mxCell>
         <mxCell id="4ExKBsZfUwCyfcFVENd_-82" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/assets/material-symbols/1/Speed_Camera.svg;labelPerimeter=1;rotation=-75;" value="" vertex="1">
           <mxGeometry height="50" width="50" x="265" y="500" as="geometry" />
