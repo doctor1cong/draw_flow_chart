@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="myQlQzABj5O7-5CL3W3M">
-    <mxGraphModel dx="2742" dy="1165" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2742" dy="2334" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -256,6 +256,133 @@
         </mxCell>
         <mxCell id="4ExKBsZfUwCyfcFVENd_-82" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/assets/material-symbols/1/Speed_Camera.svg;labelPerimeter=1;rotation=-75;" value="" vertex="1">
           <mxGeometry height="50" width="50" x="265" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="4ExKBsZfUwCyfcFVENd_-104" parent="1" style="swimlane;startSize=0;labelBorderColor=none;" value="" vertex="1">
+          <mxGeometry height="1200" width="660" x="1310" y="-50" as="geometry" />
+        </mxCell>
+        <mxCell id="4ExKBsZfUwCyfcFVENd_-113" parent="4ExKBsZfUwCyfcFVENd_-104" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;测试流程图&lt;/b&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="150" x="20" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="4ExKBsZfUwCyfcFVENd_-116" edge="1" parent="4ExKBsZfUwCyfcFVENd_-104" source="4ExKBsZfUwCyfcFVENd_-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="4ExKBsZfUwCyfcFVENd_-115" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4ExKBsZfUwCyfcFVENd_-114" parent="4ExKBsZfUwCyfcFVENd_-104" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" value="安装4个&lt;div&gt;激光模块&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="86" x="215.6" as="geometry" />
+        </mxCell>
+        <mxCell id="4ExKBsZfUwCyfcFVENd_-144" edge="1" parent="4ExKBsZfUwCyfcFVENd_-104" source="4ExKBsZfUwCyfcFVENd_-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="4ExKBsZfUwCyfcFVENd_-140" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4ExKBsZfUwCyfcFVENd_-115" parent="4ExKBsZfUwCyfcFVENd_-104" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" value="工站电脑控制&lt;div&gt;启动测试&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="86" x="215.6" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4ExKBsZfUwCyfcFVENd_-155" edge="1" parent="4ExKBsZfUwCyfcFVENd_-104" source="4ExKBsZfUwCyfcFVENd_-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="4ExKBsZfUwCyfcFVENd_-154" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4ExKBsZfUwCyfcFVENd_-117" parent="4ExKBsZfUwCyfcFVENd_-104" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" value="扫码摄像头&lt;br&gt;扫码识别SN号" vertex="1">
+          <mxGeometry height="60" width="137" x="190.1" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="4ExKBsZfUwCyfcFVENd_-131" edge="1" parent="4ExKBsZfUwCyfcFVENd_-104" source="4ExKBsZfUwCyfcFVENd_-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="4ExKBsZfUwCyfcFVENd_-130" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4ExKBsZfUwCyfcFVENd_-121" parent="4ExKBsZfUwCyfcFVENd_-104" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="开始采集&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;激光测距数据&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="110" x="203.6" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="4ExKBsZfUwCyfcFVENd_-128" edge="1" parent="4ExKBsZfUwCyfcFVENd_-104" source="4ExKBsZfUwCyfcFVENd_-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415.6" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ExKBsZfUwCyfcFVENd_-129" connectable="0" parent="4ExKBsZfUwCyfcFVENd_-128" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="否&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.013" y="-4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ExKBsZfUwCyfcFVENd_-135" edge="1" parent="4ExKBsZfUwCyfcFVENd_-104" source="4ExKBsZfUwCyfcFVENd_-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="4ExKBsZfUwCyfcFVENd_-134" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4ExKBsZfUwCyfcFVENd_-136" connectable="0" parent="4ExKBsZfUwCyfcFVENd_-135" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="是" vertex="1">
+          <mxGeometry relative="1" x="-0.2272" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ExKBsZfUwCyfcFVENd_-125" parent="4ExKBsZfUwCyfcFVENd_-104" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="是否&lt;div&gt;通过&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="218.6" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="4ExKBsZfUwCyfcFVENd_-127" parent="4ExKBsZfUwCyfcFVENd_-104" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="标定内参" vertex="1">
+          <mxGeometry height="60" width="120" x="415.6" y="639" as="geometry" />
+        </mxCell>
+        <mxCell id="4ExKBsZfUwCyfcFVENd_-133" edge="1" parent="4ExKBsZfUwCyfcFVENd_-104" source="4ExKBsZfUwCyfcFVENd_-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="4ExKBsZfUwCyfcFVENd_-125" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4ExKBsZfUwCyfcFVENd_-130" parent="4ExKBsZfUwCyfcFVENd_-104" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="统计、校验数据" vertex="1">
+          <mxGeometry height="60" width="120" x="198.6" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="4ExKBsZfUwCyfcFVENd_-149" edge="1" parent="4ExKBsZfUwCyfcFVENd_-104" source="4ExKBsZfUwCyfcFVENd_-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="4ExKBsZfUwCyfcFVENd_-148" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4ExKBsZfUwCyfcFVENd_-134" parent="4ExKBsZfUwCyfcFVENd_-104" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="&lt;div&gt;电机转台旋转90度&lt;/div&gt;测试下一个距离" vertex="1">
+          <mxGeometry height="50" width="120" x="198.6" y="756" as="geometry" />
+        </mxCell>
+        <mxCell id="4ExKBsZfUwCyfcFVENd_-145" edge="1" parent="4ExKBsZfUwCyfcFVENd_-104" source="4ExKBsZfUwCyfcFVENd_-140" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="4ExKBsZfUwCyfcFVENd_-117" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4ExKBsZfUwCyfcFVENd_-140" parent="4ExKBsZfUwCyfcFVENd_-104" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="同时测试处于10m和1m位置的模块" vertex="1">
+          <mxGeometry height="50" width="120" x="198.6" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="4ExKBsZfUwCyfcFVENd_-146" edge="1" parent="4ExKBsZfUwCyfcFVENd_-104" source="4ExKBsZfUwCyfcFVENd_-148" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.065;exitY=0.517;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.117;entryY=0.472;entryDx=0;entryDy=0;entryPerimeter=0;" target="4ExKBsZfUwCyfcFVENd_-117" value="">
+          <mxGeometry height="50" relative="1" width="50" x="0.0908" as="geometry">
+            <Array as="points">
+              <mxPoint x="130" y="872.36" />
+              <mxPoint x="130" y="278.32" />
+            </Array>
+            <mxPoint x="110" y="670" as="sourcePoint" />
+            <mxPoint x="160" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ExKBsZfUwCyfcFVENd_-150" connectable="0" parent="4ExKBsZfUwCyfcFVENd_-146" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="否" vertex="1">
+          <mxGeometry relative="1" x="-0.8244" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ExKBsZfUwCyfcFVENd_-147" edge="1" parent="4ExKBsZfUwCyfcFVENd_-104" source="4ExKBsZfUwCyfcFVENd_-127" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.505;exitY=-0.009;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.978;entryY=0.48;entryDx=0;entryDy=0;entryPerimeter=0;" target="4ExKBsZfUwCyfcFVENd_-121" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="475.6" y="484" />
+            </Array>
+            <mxPoint x="385.6" y="661" as="sourcePoint" />
+            <mxPoint x="435.6" y="611" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ExKBsZfUwCyfcFVENd_-152" edge="1" parent="4ExKBsZfUwCyfcFVENd_-104" source="4ExKBsZfUwCyfcFVENd_-148" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="4ExKBsZfUwCyfcFVENd_-151" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4ExKBsZfUwCyfcFVENd_-153" connectable="0" parent="4ExKBsZfUwCyfcFVENd_-152" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="是" vertex="1">
+          <mxGeometry relative="1" x="-0.1654" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ExKBsZfUwCyfcFVENd_-148" parent="4ExKBsZfUwCyfcFVENd_-104" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="是否测完4个模块" vertex="1">
+          <mxGeometry height="80" width="95" x="211.1" y="831" as="geometry" />
+        </mxCell>
+        <mxCell id="4ExKBsZfUwCyfcFVENd_-151" parent="4ExKBsZfUwCyfcFVENd_-104" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="测试、标定完成" vertex="1">
+          <mxGeometry height="60" width="120" x="198.6" y="961" as="geometry" />
+        </mxCell>
+        <mxCell id="4ExKBsZfUwCyfcFVENd_-157" edge="1" parent="4ExKBsZfUwCyfcFVENd_-104" source="4ExKBsZfUwCyfcFVENd_-154" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="4ExKBsZfUwCyfcFVENd_-121" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4ExKBsZfUwCyfcFVENd_-160" connectable="0" parent="4ExKBsZfUwCyfcFVENd_-157" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="是" vertex="1">
+          <mxGeometry relative="1" x="-0.2472" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ExKBsZfUwCyfcFVENd_-162" edge="1" parent="4ExKBsZfUwCyfcFVENd_-104" source="4ExKBsZfUwCyfcFVENd_-154" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="4ExKBsZfUwCyfcFVENd_-161" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4ExKBsZfUwCyfcFVENd_-154" parent="4ExKBsZfUwCyfcFVENd_-104" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="红外相机检测激光是否达到标靶上" vertex="1">
+          <mxGeometry height="80" width="137" x="190.1" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="4ExKBsZfUwCyfcFVENd_-161" parent="4ExKBsZfUwCyfcFVENd_-104" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="标记测试失败，跳过后续测试。&lt;br&gt;继续测当前位置另一个距离的模块" vertex="1">
+          <mxGeometry height="70" width="120" x="415.6" y="345" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
