@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="myQlQzABj5O7-5CL3W3M">
-    <mxGraphModel dx="1750" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1937" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -395,8 +395,8 @@
         <mxCell id="D-q6mYsXjCFKS6v4pccY-36" parent="D-q6mYsXjCFKS6v4pccY-2" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;align=left;" value="1~4号模块通信接口&lt;br&gt;（串口）" vertex="1">
           <mxGeometry height="80" width="120" x="115" y="90" as="geometry" />
         </mxCell>
-        <mxCell id="D-q6mYsXjCFKS6v4pccY-37" parent="D-q6mYsXjCFKS6v4pccY-2" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;align=left;" value="供电：&lt;br&gt;1、给MCU供电&lt;br&gt;2、给激光模块供电" vertex="1">
-          <mxGeometry height="80" width="120" x="260" y="90" as="geometry" />
+        <mxCell id="D-q6mYsXjCFKS6v4pccY-37" parent="D-q6mYsXjCFKS6v4pccY-2" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;align=left;" value="供电：&lt;br&gt;1、给MCU供电&lt;br&gt;2、给激光模块供电，支持5V和3.3V供电" vertex="1">
+          <mxGeometry height="80" width="130" x="255" y="90" as="geometry" />
         </mxCell>
         <mxCell id="D-q6mYsXjCFKS6v4pccY-38" parent="D-q6mYsXjCFKS6v4pccY-2" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;align=left;" value="提示LED：&lt;br&gt;1、每个模块搭配一个三色LED提示灯" vertex="1">
           <mxGeometry height="80" width="120" x="405" y="90" as="geometry" />
