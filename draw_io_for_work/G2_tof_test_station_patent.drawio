@@ -384,34 +384,34 @@
           <mxGeometry height="33" width="134.6" x="370" y="490" as="geometry" />
         </mxCell>
         <mxCell id="D-q6mYsXjCFKS6v4pccY-2" parent="1" style="swimlane;startSize=0;labelBorderColor=none;" value="" vertex="1">
-          <mxGeometry height="440" width="610" x="1410" y="1800" as="geometry" />
+          <mxGeometry height="410" width="580" x="1440" y="1800" as="geometry" />
         </mxCell>
         <mxCell id="D-q6mYsXjCFKS6v4pccY-3" parent="D-q6mYsXjCFKS6v4pccY-2" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;MCU控制系统框图&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="210" x="20" y="20" as="geometry" />
+          <mxGeometry height="40" width="210" x="190" y="10" as="geometry" />
         </mxCell>
         <mxCell id="D-q6mYsXjCFKS6v4pccY-35" parent="D-q6mYsXjCFKS6v4pccY-2" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="320" width="500" x="70" y="90" as="geometry" />
+          <mxGeometry height="320" width="500" x="40" y="60" as="geometry" />
         </mxCell>
         <mxCell id="D-q6mYsXjCFKS6v4pccY-36" parent="D-q6mYsXjCFKS6v4pccY-2" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;align=left;" value="1~4号模块通信接口&lt;br&gt;（串口）" vertex="1">
-          <mxGeometry height="80" width="120" x="115" y="90" as="geometry" />
+          <mxGeometry height="80" width="120" x="85" y="60" as="geometry" />
         </mxCell>
         <mxCell id="D-q6mYsXjCFKS6v4pccY-37" parent="D-q6mYsXjCFKS6v4pccY-2" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;align=left;" value="供电：&lt;br&gt;1、给MCU供电&lt;br&gt;2、给激光模块供电，支持5V和3.3V供电" vertex="1">
-          <mxGeometry height="80" width="130" x="255" y="90" as="geometry" />
+          <mxGeometry height="80" width="130" x="225" y="60" as="geometry" />
         </mxCell>
         <mxCell id="D-q6mYsXjCFKS6v4pccY-38" parent="D-q6mYsXjCFKS6v4pccY-2" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;align=left;" value="提示LED：&lt;br&gt;1、每个模块搭配一个三色LED提示灯" vertex="1">
-          <mxGeometry height="80" width="120" x="405" y="90" as="geometry" />
+          <mxGeometry height="80" width="120" x="375" y="60" as="geometry" />
         </mxCell>
         <mxCell id="D-q6mYsXjCFKS6v4pccY-39" parent="D-q6mYsXjCFKS6v4pccY-2" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;align=center;" value="MCU主控" vertex="1">
-          <mxGeometry height="90" width="130" x="250" y="220" as="geometry" />
+          <mxGeometry height="90" width="130" x="220" y="190" as="geometry" />
         </mxCell>
         <mxCell id="D-q6mYsXjCFKS6v4pccY-40" parent="D-q6mYsXjCFKS6v4pccY-2" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;align=left;" value="跟上位机通信接口（串口）" vertex="1">
-          <mxGeometry height="60" width="90" x="140" y="350" as="geometry" />
+          <mxGeometry height="60" width="90" x="110" y="320" as="geometry" />
         </mxCell>
         <mxCell id="D-q6mYsXjCFKS6v4pccY-44" parent="D-q6mYsXjCFKS6v4pccY-2" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;align=center;" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;电机驱动&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="405" y="350" as="geometry" />
+          <mxGeometry height="60" width="120" x="375" y="320" as="geometry" />
         </mxCell>
         <mxCell id="D-q6mYsXjCFKS6v4pccY-45" parent="D-q6mYsXjCFKS6v4pccY-2" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;补光灯：&lt;/span&gt;&lt;div&gt;模块二维码补光辅助扫码&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="90" x="273" y="350" as="geometry" />
+          <mxGeometry height="60" width="90" x="243" y="320" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
